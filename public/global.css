@@ -95,7 +95,7 @@ header p {
 
 header input {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   border: 1px solid #717171;
@@ -137,7 +137,7 @@ header input {
 }
 
 .main ul {
-  width: 600px;
+  width: 100%;
 }
 
 .main ul li {
@@ -170,7 +170,7 @@ header input {
 
 .main ul li input[type="text"] {
   padding: 10px;
-  width: 600px;
+  width: 100%;
   border: 1px solid #717171;
   z-index: 1000;
   font-size: 1rem;

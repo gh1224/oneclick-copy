@@ -16,11 +16,13 @@
         <div class="add-bar">
             <input
                 type="text"
+                placeholder="별칭"
                 bind:value={newTitle}
                 on:keyup={handleAddInputKeyup}
             />
             <input
                 type="text"
+                placeholder="복사되는 내용"
                 bind:value={newValue}
                 on:keyup={handleAddInputKeyup}
             />
@@ -32,5 +34,6 @@
 <style>
     .add-bar {
         display: flex;
+        gap: 7px;
     }
 </style>
